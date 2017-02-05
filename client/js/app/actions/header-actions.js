@@ -1,7 +1,5 @@
 import moment from 'moment';
 
-import http from '../http';
-
 export const SET_HEADER_TEXT = 'SET_HEADER_TEXT';
 
 export const setHeaderText = (headerText) => {
@@ -9,4 +7,4 @@ export const setHeaderText = (headerText) => {
     type: SET_HEADER_TEXT,
     headerText,
   };
-}
+};

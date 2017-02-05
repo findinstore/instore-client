@@ -1,8 +1,6 @@
 // Needed for certain babel polyfills
 require('babel-polyfill');
 
-import 'whatwg-fetch';
-
 // For IE classlist
 require('classlist-polyfill');
 

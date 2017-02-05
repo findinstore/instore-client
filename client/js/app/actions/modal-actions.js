@@ -6,13 +6,13 @@ export const CLOSE_MODAL = 'CLOSE_MODAL';
 export const openModal = (modalType) => {
   return {
     type: OPEN_MODAL,
-    modalType: modalType
+    modalType: modalType,
   };
 };
 
 export const closeModal = () => {
   return {
-    type: CLOSE_MODAL
+    type: CLOSE_MODAL,
   };
 };
 

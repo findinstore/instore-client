@@ -1,7 +1,5 @@
 import moment from 'moment';
 
-import http from '../http';
-
 import {
   getHeaderState,
 } from '../reducers/header-reducer';
@@ -13,4 +11,4 @@ export const setHomeText = (homeText) => {
     type: SET_HOME_TEXT,
     homeText,
   };
-}
+};
