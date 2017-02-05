@@ -1,0 +1,69 @@
+.loading-bg {
+  fill: none;
+  stroke: none;
+  stroke-width: 4;
+}
+
+.loading-fg {
+  fill: none;
+  stroke: rgb(20, 173, 122);
+  stroke-width: 5;
+}
+
+.svg-wrap {
+  width: 100px;
+  height: 100px;
+  transform: rotate( 90 );
+  animation: rotationKeyframes 1.5s linear infinite;
+}
+
+.loading-icon {
+  display:block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+.loading-icon.fullscreen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.loading-icon img {
+  position: relative;
+  width: 50px;
+  height: 26px;
+  margin: 37px auto 0;
+  z-index: 100;
+  left: 0;
+  right: 0;
+}
+
+.loading-icon.fullscreen img {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -25px;
+}
+
+.loading-icon .svg-wrap {
+  margin-top: -65px;
+}
+
+.loading-icon.fullscreen .svg-wrap {
+  margin-top: 0;
+}
+
+@keyframes rotationKeyframes {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}

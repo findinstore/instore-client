@@ -1,0 +1,31 @@
+/* font sizes */
+$base-font-size: 12px;
+
+$font-family: 'Open Sans', Helvetica, Verdana, sans-serif;
+
+/* $base-font-color: $color-palette-6; */
+/*$base-accent-color: $color-palette-2;*/
+/* $base-background-color: $color-palette-6; */
+/*$font-warning-color: $color-palette-5;*/
+
+/*$link-color: $base-accent-color;*/
+/* $hover-link-color: darken($base-accent-color, $color-darken-percent); */
+/*$button-background-color: $base-accent-color;*/
+/* $hover-button-background-color: lighten($base-accent-color, $color-lighten-percent); */
+/*$accent-color: rgb(0, 153, 102);
+$notif-color: rgb(255, 49, 49);
+$light-grey-btn: rgb(252, 252, 252);
+$dark-grey-btn: rgb(239, 239, 239);
+$base-font-color: rgb( 60, 65, 68 );
+$base-background-color: rgb(245, 245, 245);*/
+
+/* 
+This file should be for global variables only. If anything we should have these
+variables at the top of the mod/_modal file.
+Though I don't think these variables are that reusable 
+so maybe get rid of them altgoether.
+*/
+
+/* DIMENS */
+/*$nav-width: 180px;*/
+$header-height: 65px;
