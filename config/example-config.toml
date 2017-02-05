@@ -1,0 +1,9 @@
+# This is the config file for the instore client
+
+title = 'development instore client config'
+
+[owner]
+name = 'Derrick Chie'
+
+[api]
+version = '1.0'
