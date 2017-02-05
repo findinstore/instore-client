@@ -91,7 +91,7 @@ var webpackConfig = {
     extensions: ['', '.js', '.css']
   },
   output: {
-     path: './build',
+     path: '../build',
     filename: '[name].min.js'
   },
   module: {

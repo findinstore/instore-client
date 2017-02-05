@@ -32,7 +32,7 @@ Object.assign(webpackConfig, {
   cacheDirectory: false,
   devtool: undefined,
   output: {
-    path: './build',
+    path: '../build',
     filename: '[name].[chunkhash].min.js'
   },
   module: {
