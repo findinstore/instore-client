@@ -4,7 +4,7 @@
   "description": "The frontend client code for instore",
   "main": "index.js",
   "scripts": {
-    "build:dev": "BUILD_DEV=1 webpack --progress --colors --watch --config webpack/webpack.config",
+    "build:dev": "npm run clean:build && BUILD_DEV=1 webpack --progress --colors --watch --config webpack/webpack.config",
     "build:stage": "echo 'TBD: Will create staging client build'",
     "build:prod": "npm run clean:build && webpack --progress --colors --config webpack/webpack.production.config.js",
     "clean:modules": "rm -rf node_modules/",
